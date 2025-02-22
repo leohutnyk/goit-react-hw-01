@@ -1,14 +1,13 @@
 .transactionTable {
-  border-spacing: 0 10px;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   margin: auto;
-  width: 500px;
+  width: 600px;
 }
 th {
   padding: 10px 20px;
   background: #56433d;
-  color: #f9c941;
+  color: #ffffff;
   border-right: 2px solid;
   font-size: 0.9em;
 }
@@ -16,7 +15,7 @@ th:first-child {
   text-align: center;
 }
 td:last-child {
-  border-right: 2px solid #56433d;
+  border-right: 2px solid #c2bebd;
 }
 
 td {
@@ -32,5 +31,5 @@ td:first-child {
   border-left: 2px solid #56433d;
 }
 tr:nth-child(even) {
-  background-color: #e9b5a5;
+  background-color: #c2bebd;
 }
